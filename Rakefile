@@ -6,11 +6,12 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "ruby-qstat"
     gem.summary = %Q{QStat Ruby Frontend (Real-time game server stat fetcher)}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{QStat Ruby Frontend (Real-time game server stat fetcher)}
     gem.email = "sub+peerler@gmail.com"
     gem.homepage = "http://github.com/kimoto/ruby-qstat"
     gem.authors = ["kimoto"]
     gem.add_development_dependency "thoughtbot-shoulda"
+    gem.add_development_dependency "active_support", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
